@@ -1,0 +1,348 @@
+@charset "UTF-8";
+
+html{
+  font-size: 100%;
+}
+body{
+  font-family: "Yu gothic Medium","游ゴシック　Medium","Yu gothic","游ゴシック体","ヒラギノ角ゴ Pro W3", sans-serif;
+  margin:0;
+}
+#page-header {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  z-index: 1000;
+}
+headerarea {
+  display:flex;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+img{
+  max-width: 100%;
+}
+h1{
+  font-size: 10px;
+}
+iframe {
+  max-width: 100%;
+}
+.logo{
+  width: 330px;
+}
+.nav ul li{
+  float: left;
+  width: 100px;
+  height: 35px;
+  overflow: hidden;
+  text-align: center;
+  list-style-type: none;
+  font-weight:bold;
+  font-size:13px;
+}
+.nav :hover{
+  background: rgb(204,204,204)
+}
+.home-content{
+  text-align: center;
+  padding: 350px 0;
+}
+.home-content p{
+  font-size: 0.9rem;
+  color: white;
+  font-family: serif;
+}
+.page-title{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: white;
+}
+/* 上部背景画像 */
+.big-bg {
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+#home {
+  background-image: url(../images/home.png);
+  background-color: rgb(170,170,170);
+  background-blend-mode: darken;
+  min-height: 90vh;
+}
+.sub-title {
+  text-align:center;
+  font-family: sans-serif;
+  font-size:25px;
+  margin-bottom: 0;
+}
+.sub-title2 {
+  text-align:center;
+  font-family: sans-serif;
+  font-size:25px;
+  margin-bottom: 0;
+  color: white;
+}
+.sub-title-bottom {
+  text-align: center;
+  margin-top: 0;
+  color: rgb(200,200,200);
+}
+.sub-title-bottom2 {
+  text-align: center;
+  margin-top: 0;
+  color: white;
+}
+.content-1{
+  background:url(../images/content-bg1.jpg) left no-repeat;
+  background-size:1500px;
+  color: white;
+  font-size: 23px;
+  padding: 40px 0px 170px 480px;
+}
+.bg1-bottom{
+  font-size: 14px;
+  font-family: sans-serif;
+  margin: 50px 0px 0px 400px;
+}
+.content-1 img{
+  position: absolute;
+  width: 250px;
+  height: 200px;
+  margin-left:100px;
+}
+.content-box1{
+  margin: -250px 0px 0px 950px;
+  padding: 20px 0px 50px 20px;
+  background-color:rgb(247,247,247);
+  border-radius: 5px 0 0 5px;
+}
+.content-box1 ul li{
+  font-size:14px;
+  font-family: serif;
+  font-weight: bold;
+  line-height: 2.5;
+  list-style-type: none;
+  white-space: nowrap;
+}
+.button{
+  font-size: 15px;
+  font-family: sans-serif;
+  color: white;
+  background-color: red;
+  border-radius:5px;
+  padding: 10px 180px ;
+  white-space: nowrap;
+}
+.button:hover{
+  opacity: 0.5;
+}
+.bt1{
+  margin-left: 50px;
+}
+.grid {
+  display: grid;
+  gap: 26px;
+  grid-template-columns: repeat(3,minmax(240px,1fr));
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+}
+.item{
+  text-align: center;
+}
+.eqi{
+  background-image: url(../images/eqp.jpg);
+  width: auto;
+  height: 650px;
+  text-align: center;
+  padding: 10px 300px 10px 250px;
+  margin-top: 60px;
+}
+.company{
+  margin-top: 50px;
+  margin-left: 400px;
+  margin-bottom: 50px;
+  display: flex;
+  font-size: 21px;
+}
+.location-info p{
+  font-size: 17px;
+  line-height: 10px;
+}
+.location-info img{
+  width: 400px;
+  margin-top: 50px;
+}
+.location-map{
+  margin-left: 30px;
+}
+.employ{
+  background-image: url(../images/employ.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 10px;
+  height: 480px;
+}
+.content-box2{
+  font-size: 15px;
+  background-color: white;
+  border-radius: 5px;
+  width: 580px;
+  height: 300px;
+  line-height: 1.8;
+  margin: 50px 0 30px 950px;
+  padding: 10px 30px 0 20px;
+}
+.content-box2 p{
+  font-size: 25px;
+  font-weight: bold;
+}
+.bt4 {
+  text-align: center;
+  margin-top: 30px;
+}
+.section{
+  margin: 80px auto;
+  width: 800px;
+  height: 450px;
+  text-align: center;
+  border-width: thin;
+  border-style: solid;
+  border-radius: 5px;
+  font-size: 15px;
+  line-height: 1.8;
+}
+.section h3{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: monospace;
+}
+footer{
+  background-color: rgba(61, 152, 118);
+}
+.logo3{
+  width: 250px;
+  height:28px;
+  margin: 45px 0 30px 400px;
+}
+.footerli{
+  display: flex;
+  font-size: 14px;
+  margin-left: 510px;
+}
+.footerli a{
+  color: white;
+}
+.footerli p{
+  margin-left: 20px;
+  font-weight: bold;
+}
+.footerli nav ul{
+  list-style-type: none;
+}
+.fnav2-2{
+  margin-top: 41px;
+}
+.fnav3 p{
+  margin-left: 20px;
+}
+.fnav4 {
+  margin-left: 20px;
+}
+.footerbottom{
+  text-align: center;
+  color: rgb(170,190,170);
+  font-size: 12px;
+  padding:  30px 100px 10px;
+}
+/*　モバイル版
+---------------------------------------------*/
+
+/*タブレット--*/
+@media (max-width: 1600px) and (min-width: 768px){
+.page-title {
+  font-size: 35px;
+}
+.bg1-bottom{
+text-align: center;
+}
+.content-box1{
+  margin: 0;
+  padding: 30px 300px;
+}
+.eqi{
+ padding: 0;
+}
+.company{
+ margin:0;
+ display:block;
+}
+.location-info{
+  margin-left: 300px;
+}
+.location-map{
+  margin-top: 30px;
+  margin-left: 0;
+}
+.content-box2{
+  margin:auto;
+}
+.logo3{
+  margin: auto;
+}
+.footerli{
+  margin: auto;
+}
+}
+
+/*スマホ--*/
+@media  (max-width: 767px) {
+.page-title {
+    font-size: 20px;
+  }
+.content-1{
+  padding-left: 0;
+  }
+.bg1-bottom{
+   margin-left:0;
+  }
+.content-box1{
+    margin: 0;
+    padding-left: 0;
+    padding-bottom: 30px;
+  }
+.eqi{
+   padding: 0;
+   height: 500px;
+  }
+.grid{
+     grid-template-columns: repeat(3,minmax(120px,1fr));
+ }
+.company{
+   margin:0;
+   display:block;
+}
+.location-map{
+    margin-top: 30px;
+    margin-left: 0;
+  }
+.content-box2{
+    margin:auto;
+  }
+.section{
+padding: 0;
+width: auto;
+height: auto;
+}
+.logo3{
+    margin: auto;
+  }
+.footerli{
+    margin: auto;
+    display: block;
+  }
+}
